@@ -6,4 +6,4 @@ script:
   npm run dev
 
 before_install:
-  npm install
+  - npm install
