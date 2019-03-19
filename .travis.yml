@@ -2,8 +2,16 @@ language: node_js
 node_js:
   - "8"
 
-script:
-  - deploy.sh
+# script:
+#   -run deploy.sh
 
 before_install:
   - npm install
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: 8732fe9aff96ba34fc42cd2f8f566735ccf476e8  # Set in the settings page of your repository, as a secure variable
+  keep-history: true
+  on:
+    branch: master
