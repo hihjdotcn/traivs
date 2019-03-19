@@ -7,3 +7,11 @@ script:
 
 before_install:
   - npm install
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: ce780db81ad0737d1390103339b9b4ee824897c9  # Set in the settings page of your repository, as a secure variable
+  keep-history: true
+  on:
+    branch: master
