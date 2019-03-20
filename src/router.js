@@ -8,7 +8,7 @@ export default new Router({
   mode: 'history',
   routes: [
     {
-      path: '/',
+      path: '/traivs/',
       name: 'home',
       component: Home,
       // redirect: '/englishCorner',
@@ -18,7 +18,7 @@ export default new Router({
       }
     },
     {
-      path: '/littleApp',
+      path: '../littleApp',
       name: 'littleApp',
       // route level code-splitting
       // this generates a separate chunk (about.[hash].js) for this route
@@ -30,7 +30,7 @@ export default new Router({
       }
     },
     {
-      path: '/program',
+      path: './program',
       name: 'program',
       component: () => import('./views/Program'),
       meta: {
