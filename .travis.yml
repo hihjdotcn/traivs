@@ -19,7 +19,7 @@ after_script:
   - git config user.email "miaojihj@outlook.com"
   - git add -A
   - git commit -m 'deploy'
-  - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master: master
+  - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master: gh-pages
 
 branches:
   only:
