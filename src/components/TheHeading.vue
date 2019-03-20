@@ -2,8 +2,8 @@
     <div class="app-header">
         <div id="nav">
             <router-link to="/">首页</router-link> |
-            <router-link :to="relative/program" append>优质项目</router-link> |
-            <router-link :to="relative/talk" append>文章</router-link>
+            <router-link :to="{ path:'/program' }" >优质项目</router-link> |
+            <router-link :to="{ path:'/talk' }" >文章</router-link>
         </div>
     </div>
 </template>
