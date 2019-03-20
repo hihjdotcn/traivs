@@ -8,7 +8,7 @@ export default new Router({
   mode: 'history',
   routes: [
     {
-      path: '/traivs/',
+      path: '/',
       name: 'home',
       component: Home,
       // redirect: '/englishCorner',
