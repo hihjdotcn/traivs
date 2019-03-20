@@ -8,25 +8,13 @@ export default new Router({
   mode: 'history',
   routes: [
     {
-      path: '/',
+      path: './',
       name: 'home',
       component: Home,
       // redirect: '/englishCorner',
       meta: {
         title: '火箭网-首页-new',
         content: '前端技术客栈 | node.js | webpack | 网页自适应设计 | css世界'
-      }
-    },
-    {
-      path: '../littleApp',
-      name: 'littleApp',
-      // route level code-splitting
-      // this generates a separate chunk (about.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import(/* webpackChunkName: "about" */ './views/LittleApp'),
-      meta: {
-        title: '火箭网-小应用',
-        content: '常用应用汇总'
       }
     },
     {
@@ -39,7 +27,7 @@ export default new Router({
       }
     },
     {
-      path: '/talk',
+      path: '../talk',
       name: 'talk',
       component: () => import('./views/Talk'),
       meta: {
