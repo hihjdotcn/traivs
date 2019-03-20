@@ -1,5 +1,7 @@
 module.exports = {
-  baseUrl: process.env.NODE_ENV === 'production'
-    ? '/websiteHJ'
-    : './'
+  publicPath: process.env.NODE_ENV === 'production' ? '/traivs' : './',
+
+  indexPath: 'index.html',
+
+  outputDir: './docs'
 }
