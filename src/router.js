@@ -8,7 +8,7 @@ export default new Router({
   mode: 'history',
   routes: [
     {
-      path: './',
+      path: '/',
       name: 'home',
       component: Home,
       // redirect: '/englishCorner',
@@ -18,7 +18,7 @@ export default new Router({
       }
     },
     {
-      path: './program',
+      path: '/program',
       name: 'program',
       component: () => import('./views/Program'),
       meta: {
@@ -27,7 +27,7 @@ export default new Router({
       }
     },
     {
-      path: '../talk',
+      path: '/talk',
       name: 'talk',
       component: () => import('./views/Talk'),
       meta: {
