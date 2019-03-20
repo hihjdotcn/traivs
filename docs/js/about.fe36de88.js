@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["about"],{e1e0:function(t,e,n){"use strict";n.r(e);var s=function(){var t=this,e=t.$createElement,n=t._self._c||e;return n("div",{staticClass:"littleApp"},[n("h1",[t._v("优雅的做一件事。")]),n("div",[n("input",{directives:[{name:"focus",rawName:"v-focus"}],attrs:{type:"text"}})])])},i=[],c={name:"littleApp",directives:{focus:{inserted:function(t){t.focus()}}}},u=c,a=n("2877"),l=Object(a["a"])(u,s,i,!1,null,null,null);e["default"]=l.exports}}]);
+//# sourceMappingURL=about.fe36de88.js.map
